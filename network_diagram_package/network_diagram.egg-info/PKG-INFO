@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: network-diagram
+Version: 0.1
+Summary: A simple network diagram generator
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Network Diagram Package
+
+This package is used to create network diagrams with SVG.
+
+## Installation
+
+Run the following command to install:
+
+```
+pip install network_diagram_package
+```
+
+## Usage
+
+```python
+import network_diagram
+
+# Example usage
+computer_labels = ['Computer 1', 'Computer 2', 'Computer 3', 'Computer 4', 'Computer 5']
+network_label = 'my-network'
+network_diagram.create_network_diagram(computer_labels, network_label)
+```
